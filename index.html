@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Impossible Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch em all!</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>Favorite Pokemon?</h1>
+      <ul class="pokemon-list">
+        <li>
+          <button class="choose-pokemon-btn">
+            <p>Best Boy Squirtle</p>
+            <img src="images/squirtle.png" alt="squirtle" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-pokemon-btn">
+            <p>Bulbasaur</p>
+            <img src="images/bulbasaur.png" alt="bulbasaur" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-pokemon-btn">
+            <p>Charmander</p>
+            <img src="images/Charmander.png" alt="charmander" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-pokemon-btn">
+            <p>Pikachu</p>
+            <img src="images/Pikachu.png" alt="Pikachu" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-pokemon-btn">
+            <p>Le Chonky Boy</p>
+            <img src="images/lechonk.png" alt="lechonk" />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        You can't catch em all? <br />
+        They just keep coming :)
+      </h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
